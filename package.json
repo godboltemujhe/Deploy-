@@ -1,0 +1,23 @@
+{
+  "name": "bmv-quiz-app",
+  "version": "1.0.0",
+  "description": "BMV Quiz App - Create, customize, and take quizzes online or offline",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "quiz",
+    "pwa",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

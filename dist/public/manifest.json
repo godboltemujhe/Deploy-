@@ -1,0 +1,41 @@
+{
+  "name": "BMV Quiz",
+  "short_name": "BMV Quiz",
+  "description": "Create and take quizzes online or offline",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Create Quiz",
+      "short_name": "Create",
+      "description": "Create a new quiz",
+      "url": "/#create",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Take Quiz",
+      "short_name": "Take",
+      "description": "Take a quiz",
+      "url": "/#quizzes",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}
